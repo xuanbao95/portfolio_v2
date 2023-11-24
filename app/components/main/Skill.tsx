@@ -23,7 +23,7 @@ const Skills = ()=>{
                 <div className={'w-full h-full z-[10px] opacity-30 flex items-center justify-center bg-cover'}>
                     <video
                         className={'w-full h-auto'}
-                        preload={false}
+                        preload={'false'}
                         playsInline
                         loop
                         muted
