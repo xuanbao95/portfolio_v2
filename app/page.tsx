@@ -6,8 +6,7 @@ export default function Home() {
       <div
         className={'flex flex-col h-[850px] gap-20'}
       >
-          <span className={"text-white"}>sdas</span>
-          {/*<MainPage/>*/}
+          <MainPage/>
       </div>
     </main>
   )
