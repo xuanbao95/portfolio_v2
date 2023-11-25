@@ -1,6 +1,7 @@
 import React from "react";
 import HeroContent from "../sub/HeroContent";
 import Skills from "./Skill";
+import Encryption from "./Encryption";
 const MainPage=()=>{
     return(
         <div className={'relative flex flex-col h-full w-full'}>
@@ -14,6 +15,7 @@ const MainPage=()=>{
             </video>
             <HeroContent/>
             <Skills/>
+            <Encryption/>
         </div>
     )
 }
