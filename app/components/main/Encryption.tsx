@@ -4,9 +4,10 @@ import React from "react";
 import {motion} from 'framer-motion'
 import {slideInFromTop} from "../../utils/motion";
 import Image from 'next/image'
-const Encryption = ()=>{
-    return(
-        <div className={'flex flex-row relative items-center justify-center w-full h-full'}>
+
+const Encryption = () => {
+    return (
+        <div className={'flex flex-row relative items-center justify-center min-h-screen w-full h-full'}>
             <div className={'absolute w-auto h-auto top-0 z-[5]'}>
                 <motion.div
                     variants={slideInFromTop}
@@ -20,7 +21,8 @@ const Encryption = ()=>{
                     Security
                 </motion.div>
             </div>
-            <div className={'flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto'}>
+            <div
+                className={'flex flex-col items-center justify-center translate-y-[-50px] absolute z-[20] w-auto h-auto'}>
                 <div className={'flex flex-col items-center group cursor-pointer w-auto h-auto'}>
                     <Image
                         src={'/LockTop.png'}
@@ -38,18 +40,26 @@ const Encryption = ()=>{
                     />
                 </div>
             </div>
-            <div className={'welcome-box px-[15px] py-[4px]'}>
+            <div className={'welcome-box px-[15px] py-[4px] z-[20] border-[#7042f88b] opacity-[0.9]'}>
+                <h1 className={'welcome-text text-[12px]'}>
+                    Encryption
+                </h1>
 
+            </div>
+            <div className={'absolute z-[20] bottom-[10px] px-[5px]'}>
+                <div className={'cursive text-[20px] font-medium text-center text-gray-300'}>
+                    Secure your dât with end-to-end encryption
+                </div>
             </div>
             <div className={'w-full flex items-start justify-center absolute'}>
                 <video
-                   loop
-                   muted
-                   autoPlay
-                   playsInline
-                   preload={'false'}
-                   className={'w-full h-auto'}
-                   src={'/encryption.webm'}
+                    loop
+                    muted
+                    autoPlay
+                    playsInline
+                    preload={'false'}
+                    className={'w-full h-auto'}
+                    src={'/encryption.webm'}
                 />
             </div>
         </div>
