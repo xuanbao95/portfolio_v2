@@ -38,6 +38,9 @@ const Encryption = ()=>{
                     />
                 </div>
             </div>
+            <div className={'welcome-box px-[15px] py-[4px]'}>
+
+            </div>
             <div className={'w-full flex items-start justify-center absolute'}>
                 <video
                    loop
