@@ -1,8 +1,9 @@
-import React from "react";
-import HeroContent from "../sub/HeroContent";
+import React, {useRef} from "react";
 import Skills from "./Skill";
 import Encryption from "./Encryption";
 import Project from "./Project";
+import HeroContent from "./HeroContent";
+import AboutMe from "./AboutMe";
 const MainPage=()=>{
     return(
         <div className={'relative flex flex-col h-full w-full'}>
@@ -15,6 +16,7 @@ const MainPage=()=>{
                 <source src={'/blackhole.webm'} type={'video/webm'} />
             </video>
             <HeroContent/>
+            <AboutMe/>
             <Skills/>
             <Encryption/>
             <Project/>

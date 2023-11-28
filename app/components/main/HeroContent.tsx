@@ -23,13 +23,20 @@ const HeroContent = ()=>{
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
-                    className={'flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto'}
+                    className={'flex flex-row gap-6 items-center mt-6 text-3xl text-bold text-white max-w-[600px] w-auto h-auto'}
                 >
-                    Providing
                     <span className={'text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'}>
-                        the best
+                        Hi! I&apos;m Xuan Bao
                     </span>
-                    project exprience
+                    <div className={'rounded-full w-[100px] h-[100px] border border-3 border-gray-500'}>
+                        <Image
+                            src={'/avatar.jpg'}
+                            alt={'avatar'}
+                            width={100}
+                            height={100}
+                            className={'rounded-full'}
+                        />
+                    </div>
                 </motion.div>
 
                 <motion.p
