@@ -162,11 +162,16 @@ export const Frontend_skill = [
 
 
 
-export const Other_skill = [
+export const INFORMATION=[
     {
-        skill_name: "Go",
-        Image: "/go.png",
-        width: 60,
-        height: 60,
+        id: 1,
+        title: 'Full Name',
+        label: 'LUU GIA XUAN BAO',
     },
-];
+    {
+        id: 2,
+        title: 'Birthday',
+        label: '23/01/1995'
+    },
+
+]
