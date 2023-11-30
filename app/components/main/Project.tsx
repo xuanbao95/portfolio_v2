@@ -12,16 +12,19 @@ const Project = ({ref} : { ref: any })=>{
                     src={'/NextWebsite.png'}
                     title={'Modern Next Js portfolio'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
+                    url={'nike'}
                 />
                 <ProjectCard
                     src={'/CardImage.png'}
                     title={'Interactive Wedsite Card'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
+                    url={'tix'}
                 />
                 <ProjectCard
                     src={'/SpaceWebsite.png'}
                     title={'Space Themed Website'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
+                    url={'banhang'}
                 />
             </div>
         </section>

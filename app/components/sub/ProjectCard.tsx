@@ -1,13 +1,22 @@
+'use client'
 import React from "react";
 import Image from 'next/image'
+import {useRouter} from "next/navigation";
 interface Props {
     src: string,
     title: string,
-    description: string
+    description: string,
+    url: string,
 }
-const ProjectCard = ({src, title, description}: Props)=>{
+const ProjectCard = ({src, title, description, url}: Props)=>{
+    const router = useRouter()
     return(
-        <div className={'relative overflow-hidden rounded-lg shadow-lg border border-[#2a0e61]'}>
+        <div
+            className={'relative overflow-hidden rounded-lg shadow-lg border border-[#2a0e61]'}
+            onClick={()=>{
+                router.push(`/projects/${url}`)
+            }}
+        >
             <Image
                 src={src}
                 alt={'title'}

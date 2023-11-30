@@ -171,7 +171,41 @@ export const INFORMATION=[
     {
         id: 2,
         title: 'Birthday',
-        label: '23/01/1995'
+        label: '23/01/1995',
     },
-
+    {
+        id: 3,
+        title: 'Gender',
+        label: 'Male',
+    },
+    {
+        id: 3,
+        title: 'Phone number',
+        label: '0784306114 - 0939570327',
+    },
+    {
+        id: 3,
+        title: 'Email',
+        label: 'bao.lgx@gmail.com',
+    },
 ]
+export const PAGE_PROJECT ={
+    nike:{
+        name: 'Project Nike',
+        link: 'https://nikereact.surge.sh/'
+    },
+    tix:{
+        name: 'Project Booking Ticket',
+        link: 'https://tix-cybersoft.surge.sh/',
+        teamWork: '2 person',
+        position:'Front end',
+        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course."
+    },
+    banhang:{
+        name: 'Project E-commerce',
+        link: 'https://banhang.upos.vn/',
+        teamWork: '7 person',
+        position:'Front end',
+        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course."
+    }
+}
