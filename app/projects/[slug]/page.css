@@ -1,0 +1,9 @@
+.slick-slider .slick-slide{
+    height: 300px;
+    padding: 0 10px;
+}
+.slick-slider .slick-slide > div{
+    height: 300px;
+    width: 300px;
+    margin: 0 10px;
+}

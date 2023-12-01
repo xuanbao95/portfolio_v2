@@ -12,7 +12,7 @@ const ProjectCard = ({src, title, description, url}: Props)=>{
     const router = useRouter()
     return(
         <div
-            className={'relative overflow-hidden rounded-lg shadow-lg border border-[#2a0e61]'}
+            className={'relative overflow-hidden rounded-lg shadow-lg border border-[#2a0e61] cursor-pointer'}
             onClick={()=>{
                 router.push(`/projects/${url}`)
             }}

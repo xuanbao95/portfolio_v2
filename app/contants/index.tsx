@@ -140,12 +140,6 @@ export const Frontend_skill = [
         width: 80,
         height: 80,
     },
-    // {
-    //     skill_name: "React Query",
-    //     Image: "/reactquery.png",
-    //     width: 80,
-    //     height: 80,
-    // },
     {
         skill_name: "Type Script",
         Image: "/ts.png",
@@ -192,20 +186,47 @@ export const INFORMATION=[
 export const PAGE_PROJECT ={
     nike:{
         name: 'Project Nike',
-        link: 'https://nikereact.surge.sh/'
+        link: 'https://nikereact.surge.sh/',
+        teamWork: '2 person',
+        position:'Front end',
+        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course.",
+        image:[
+            '/LockMain.png',
+            '/LockTop.png',
+            '/mui.png',
+            '/next.png',
+            '/react.png'
+
+        ]
     },
     tix:{
         name: 'Project Booking Ticket',
         link: 'https://tix-cybersoft.surge.sh/',
         teamWork: '2 person',
         position:'Front end',
-        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course."
+        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course.",
+        image:[
+            '/LockMain.png',
+            '/LockTop.png',
+            '/mui.png',
+            '/next.png',
+            '/react.png'
+
+        ]
     },
     banhang:{
         name: 'Project E-commerce',
         link: 'https://banhang.upos.vn/',
         teamWork: '7 person',
         position:'Front end',
-        description: "I code this project when I was learned in Cycbersoft Inc. This is my final project for the course."
+        description: "This is a website E-commerce. It's allowed us to manage goods, inventory, connect to multiple shipping carriers. " +
+            "connect to facebook. Help us bulk order easily",
+        image:[
+            '/img/upos1.png',
+            '/img/upos2.png',
+            '/img/upos3.png',
+            '/img/upos4.png',
+            '/img/upos5.png',
+        ]
     }
 }
