@@ -183,7 +183,7 @@ export const INFORMATION=[
         label: 'bao.lgx@gmail.com',
     },
 ]
-export const PAGE_PROJECT ={
+export const PAGE_PROJECT : any ={
     nike:{
         name: 'Project Nike',
         link: 'https://nikereact.surge.sh/',
