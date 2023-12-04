@@ -2,7 +2,7 @@ import React from "react";
 import {Frontend_skill} from "../../contants/index";
 import SkillsProvider from "../sub/SkillsProvider";
 import SkillText from "../sub/SkillText";
-const Skills = ({ref} : { ref: any })=>{
+const Skills = ()=>{
     return(
         <section
             className={'flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20'}
