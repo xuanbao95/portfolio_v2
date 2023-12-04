@@ -9,19 +9,19 @@ const Project = ({ref} : { ref: any })=>{
             </h1>
             <div className={'h-full w-full flex flex-col md:flex-row gap-10 px-10'}>
                 <ProjectCard
-                    src={'/NextWebsite.png'}
+                    src={'/upos.png'}
                     title={'Modern Next Js portfolio'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
                     url={'nike'}
                 />
                 <ProjectCard
-                    src={'/CardImage.png'}
+                    src={'/tix.png'}
                     title={'Interactive Wedsite Card'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
                     url={'tix'}
                 />
                 <ProjectCard
-                    src={'/SpaceWebsite.png'}
+                    src={'/nike.png'}
                     title={'Space Themed Website'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
                     url={'banhang'}
