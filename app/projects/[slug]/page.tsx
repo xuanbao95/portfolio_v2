@@ -8,7 +8,7 @@ import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './page.css'
-import Slider from "react-slick";
+import {Slider} from "react-slick";
 export default function Projects() {
     const {slug} = useParams()
     const data = !!slug ? PAGE_PROJECT[slug] : ''
