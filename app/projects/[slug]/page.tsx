@@ -63,7 +63,7 @@ export default function Projects() {
                 >
                     <span className={'text-white text-[15px]'}>Position in team:{' '}</span>
                     <span
-                        className={'text-[21px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'}>Front End'</span>
+                        className={'text-[21px] text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'}>Front End</span>
                 </motion.div>
                 <motion.div
                     variants={slideInFromLeft(0.5)}
