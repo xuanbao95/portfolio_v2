@@ -11,7 +11,7 @@ import './page.css'
 // import Slider from "react-slick";
 export default function Projects() {
     const {slug} = useParams()
-    const data = !!slug ? PAGE_PROJECT.slug : ''
+    const data = !!slug ? PAGE_PROJECT.keys[slug] : ''
 
     const settings = {
         className: "center",
