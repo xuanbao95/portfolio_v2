@@ -8,7 +8,7 @@ import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './page.css'
-// import Slider from "react-slick";
+import Slider from "react-slick";
 export default function Projects() {
     const {slug} = useParams()
     const data = !!slug ? PAGE_PROJECT[slug as keyof typeof PAGE_PROJECT] : ''
@@ -81,20 +81,20 @@ export default function Projects() {
                     variants={slideInFromRight(0.5)}
                     className={'w-full h-full'}
                 >
-                    {/*<Slider*/}
-                    {/*    {...settings}*/}
-                    {/*    className={'h-[300px]'}*/}
-                    {/*>*/}
-                    {/*    {*/}
-                    {/*        data.image?.map((map, i) => <Image*/}
-                    {/*            key={i}*/}
-                    {/*            src={map}*/}
-                    {/*            width={500}*/}
-                    {/*            height={500}*/}
-                    {/*            alt={'avatar'}*/}
-                    {/*        />)*/}
-                    {/*    }*/}
-                    {/*</Slider>*/}
+                    <Slider
+                        {...settings}
+                        className={'h-[300px]'}
+                    >
+                        {
+                            data.image?.map((map, i) => <Image
+                                key={i}
+                                src={map}
+                                width={500}
+                                height={500}
+                                alt={'avatar'}
+                            />)
+                        }
+                    </Slider>
                 </motion.div>
 
             </div>

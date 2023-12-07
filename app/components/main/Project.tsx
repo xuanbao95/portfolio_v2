@@ -9,7 +9,7 @@ const Project = ()=>{
             </h1>
             <div className={'h-full w-full flex flex-col md:flex-row gap-10 px-10'}>
                 <ProjectCard
-                    src={'/upos.png'}
+                    src={'/nike.png'}
                     title={'Modern Next Js portfolio'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
                     url={'nike'}
@@ -21,7 +21,7 @@ const Project = ()=>{
                     url={'tix'}
                 />
                 <ProjectCard
-                    src={'/nike.png'}
+                    src={'/upos.png'}
                     title={'Space Themed Website'}
                     description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
                     url={'banhang'}
