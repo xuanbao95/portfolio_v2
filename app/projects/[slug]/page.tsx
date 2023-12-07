@@ -86,7 +86,7 @@ export default function Projects() {
                         className={'h-[300px]'}
                     >
                         {
-                            data.image?.map((map, i) => <Image
+                            data.image?.map(({map, i}:{map:any ,i:number}) => <Image
                                 key={i}
                                 src={map}
                                 width={500}
