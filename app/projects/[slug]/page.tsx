@@ -86,13 +86,15 @@ export default function Projects() {
                         className={'h-[300px]'}
                     >
                         {
-                            data.image?.map((map, i) => <Image
-                                key={i}
-                                src={map}
-                                width={500}
-                                height={500}
-                                alt={'avatar'}
-                            />)
+                            data.image?.map((map : string, i) =>{
+                                return <Image
+                                    key={i}
+                                    src={map}
+                                    width={500}
+                                    height={500}
+                                    alt={'avatar'}
+                                />
+                            } )
                         }
                     </Slider>
                 </motion.div>
