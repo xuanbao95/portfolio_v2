@@ -173,15 +173,21 @@ export const INFORMATION=[
         label: 'Male',
     },
     {
-        id: 3,
+        id: 4,
         title: 'Phone number',
         label: '0784306114 - 0939570327',
     },
     {
-        id: 3,
+        id: 5,
         title: 'Email',
         label: 'bao.lgx@gmail.com',
     },
+    {
+        id: 6,
+        title:'My cv',
+        label:'Luu-Gia-Xuan_Bao-CV',
+        isDownload:true
+    }
 ]
 export const PAGE_PROJECT : any ={
     nike:{

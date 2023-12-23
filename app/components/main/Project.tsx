@@ -9,23 +9,24 @@ const Project = ()=>{
             </h1>
             <div className={'h-full w-full flex flex-col md:flex-row gap-10 px-10'}>
                 <ProjectCard
+                    src={'/upos.png'}
+                    title={'UPOS-Manage Online Sales'}
+                    description={'Managing order sources, placing orders in online business.'}
+                    url={'banhang'}
+                />
+                <ProjectCard
                     src={'/nike.png'}
                     title={'Modern Next Js portfolio'}
-                    description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
+                    description={'Website about shoes and clothing fashion.'}
                     url={'nike'}
                 />
                 <ProjectCard
                     src={'/tix.png'}
                     title={'Interactive Wedsite Card'}
-                    description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
+                    description={'Movie ticket booking website.'}
                     url={'tix'}
                 />
-                <ProjectCard
-                    src={'/upos.png'}
-                    title={'Space Themed Website'}
-                    description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry. '}
-                    url={'banhang'}
-                />
+
             </div>
         </section>
     )
